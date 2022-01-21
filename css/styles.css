@@ -18,10 +18,6 @@
   --secondary-text-color: rgba(255, 255, 255, 0.6);
 }
 
-* {
-  box-sizing: border-box;
-}
-
 /*  Ресет */
 
 p,
@@ -41,6 +37,15 @@ ul {
 
 img {
   display: block;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid red;
+  margin: 0 auto;
+  /* margin doesnt work */
 }
 
 body {
