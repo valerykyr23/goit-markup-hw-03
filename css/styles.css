@@ -18,6 +18,31 @@
   --secondary-text-color: rgba(255, 255, 255, 0.6);
 }
 
+* {
+  box-sizing: border-box;
+}
+
+/*  Ресет */
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
 body {
   font-family: Roboto, sans-serif;
   color: var(--primary-text-color);
