@@ -52,11 +52,6 @@ img {
   padding-top: 94px;
 }
 
-/* .header {
-  padding-top: 32px;
-  padding-bottom: 32px;
-} */
-
 body {
   font-family: Roboto, sans-serif;
   color: var(--primary-text-color);
@@ -81,9 +76,14 @@ body {
 
 .header-logo-link {
   color: var(--title-text-color);
+  padding-top: 24px;
+  padding-bottom: 25px;
+  display: inline-block;
 }
 .footer-logo-link {
   color: var(--main-background-color);
+  display: inline-block;
+  margin-bottom: 20px;
 }
 
 /* Делает слово  web в логотипе голубым */
@@ -94,6 +94,7 @@ body {
 /*  Секция герой на странице студии */
 .hero {
   background-color: var(--dark-background);
+  text-align: center;
 }
 .hero-title {
   color: var(--main-background-color);
@@ -102,6 +103,7 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 .hero-button {
@@ -113,6 +115,9 @@ body {
   line-height: 1.8;
   letter-spacing: 0.06em;
   cursor: pointer;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
 }
 
 /* Утилитный класс */
@@ -128,6 +133,12 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+}
+
+.site-nav .link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: inline-block;
 }
 
 .site-nav .link:hover,
@@ -149,6 +160,9 @@ body {
 .contact-info-item {
   color: var(--primary-text-color);
   text-decoration-line: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: inline-block;
 }
 
 .contact-info-item:hover,
@@ -185,6 +199,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .feature-description {
@@ -200,6 +215,7 @@ body {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
 
 .section-work {
@@ -210,12 +226,23 @@ body {
   background-color: var(--tertiary-white-background);
 }
 
+.img {
+  margin-bottom: 30px;
+}
+.card-item {
+  border-radius: 0px 0px 4px 4px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
 .teamplayer-name {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
 
 .teamplayer-position {
@@ -249,9 +276,11 @@ body {
   color: var(--main-background-color);
   text-decoration-line: none;
 }
-
+/* через формулу соседа поставить нижнии маржині ссілкам футера */
 .address-first-item {
   color: var(--main-background-color);
+  margin-bottom: 9px;
+  display: inline-block;
 }
 .address-item {
   color: var(--secondary-text-color);
