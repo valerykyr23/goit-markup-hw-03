@@ -45,8 +45,17 @@ img {
   padding-right: 15px;
   outline: 2px solid red;
   margin: 0 auto;
-  /* margin doesnt work */
 }
+
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+/* .header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+} */
 
 body {
   font-family: Roboto, sans-serif;
