@@ -79,6 +79,7 @@ body {
   padding-top: 24px;
   padding-bottom: 25px;
   display: inline-block;
+  margin-right: 93px;
 }
 .footer-logo-link {
   color: var(--main-background-color);
@@ -133,6 +134,25 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  display: flex;
+}
+
+.header-container {
+  display: flex;
+}
+.header-connect {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav .item + .item {
+  margin-left: 50px;
 }
 
 .site-nav .link {
@@ -156,6 +176,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  display: flex;
 }
 .contact-info-item {
   color: var(--primary-text-color);
@@ -163,6 +184,10 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
   display: inline-block;
+}
+
+.contact-info .info + .info {
+  margin-left: 50px;
 }
 
 .contact-info-item:hover,
@@ -276,14 +301,16 @@ body {
   color: var(--main-background-color);
   text-decoration-line: none;
 }
-/* через формулу соседа поставить нижнии маржині ссілкам футера */
+/* через формулу соседа поставить нижнии маржині li футера */
 .address-first-item {
   color: var(--main-background-color);
-  margin-bottom: 9px;
-  display: inline-block;
 }
 .address-item {
   color: var(--secondary-text-color);
+}
+
+.footer-address .footer-item + .footer-item {
+  margin-top: 9px;
 }
 
 .address-first-item,
