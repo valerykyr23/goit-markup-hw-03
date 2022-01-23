@@ -59,6 +59,7 @@ body {
 /*   Цвет фона секций страницы портфолио */
 .header {
   background-color: var(--main-background-color);
+  border-bottom: 1px solid #ececec;
 }
 .main {
   background-color: var(--main-background-color);
@@ -258,7 +259,6 @@ body {
 .feature-list-item {
   margin-right: 30px;
   min-width: 270px;
-  height: 101px;
 }
 
 .feature-list-item:nth-child(4n) {
