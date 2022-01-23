@@ -199,6 +199,7 @@ body {
 .page-filter {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .page-filter .filter-item + .filter-item {
@@ -370,10 +371,15 @@ body {
   color: var(--main-background-color);
   text-decoration-line: none;
 }
-/* через формулу соседа поставить нижнии маржині li футера */
+
 .address-first-item {
   color: var(--main-background-color);
 }
+.address-first-item:hover,
+.address-first-item:focus {
+  color: var(--accent-color);
+}
+
 .address-item {
   color: var(--secondary-text-color);
 }
